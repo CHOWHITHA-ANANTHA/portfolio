@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anantha Chowhitha - Resume</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            font-size: 10pt;
+            line-height: 1.4;
+            margin: 1in;
+            color: #000;
+            max-width: 8.5in;
+            background: white;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .title {
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        
+        .contact {
+            font-size: 10pt;
+        }
+        
+        .contact a {
+            color: #4169E1;
+            text-decoration: none;
+        }
+        
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        
+        .section {
+            margin-top: 16px;
+            margin-bottom: 12px;
+        }
+        
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #4169E1;
+            margin-bottom: 8px;
+            border-bottom: none;
+        }
+        
+        .subsection-title {
+            font-weight: bold;
+            display: inline;
+            margin-right: 8px;
+        }
+        
+        .subsection-title::after {
+            content: " -- ";
+            font-weight: normal;
+        }
+        
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+        
+        .school-name {
+            font-weight: bold;
+        }
+        
+        .date {
+            font-style: normal;
+        }
+        
+        .degree-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 4px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+            margin-bottom: 8px;
+        }
+        
+        .skills-column {
+            margin: 0;
+        }
+        
+        ul {
+            margin: 8px 0;
+            padding-left: 18px;
+        }
+        
+        li {
+            margin-bottom: 4px;
+        }
+        
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+        
+        .job-title {
+            font-weight: bold;
+        }
+        
+        .location {
+            font-style: normal;
+        }
+        
+        p {
+            margin: 8px 0;
+        }
+        
+        .italic {
+            font-style: italic;
+        }
+        
+        .bold {
+            font-weight: bold;
+        }
+        
+        @media print {
+            body {
+                margin: 0.5in;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="name">Anantha Chowhitha</div>
+        <div class="title">Aspiring Prompt Engineer & Software Developer</div>
+        <div class="contact">
+            <a href="mailto:chowhitha@gmail.com">chowhitha@gmail.com</a> | 
+            <a href="https://linkedin.com/in/chowhitha-anantha-14a267312">linkedin.com/in/chowhitha-anantha-14a267312</a>
+        </div>
+    </div>
+
+    <!-- Professional Summary -->
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+        <p>Creative and goal-driven B.Tech IT student interested in Prompt Engineering, LLMs, and AI applications. Experienced in building user-focused web solutions and crafting effective prompts for real-world use cases. Comfortable with Python, NLP libraries, and learning ML tools like TensorFlow. Seeking opportunities to apply and grow AI skills in impactful projects.</p>
+    </div>
+
+    <!-- Education -->
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="education-header">
+            <span class="school-name">Kalasalingam Academy of Research and Education, Tamil Nadu</span>
+            <span class="date">May 2027 (Expected)</span>
+        </div>
+        <div class="degree-info">
+            <span>B.Tech in Information Technology</span>
+            <span>GPA: 8.65</span>
+        </div>
+        <p><span class="italic">Relevant Coursework:</span> Data Structures, Python Programming, AI Basics, NLP, Machine Learning, Web Development</p>
+        <p><span class="italic">Certifications:</span> Prompt Engineering (DeepLearning.AI), Python for NLP (Coursera), AI for All</p>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+            <div class="skills-column">
+                <ul>
+                    <li>Prompt Engineering, Python</li>
+                    <li>Experience with ChatGPT, Copilot, Sora</li>
+                    <li>NLP (spaCy, NLTK), HuggingFace</li>
+                </ul>
+            </div>
+            <div class="skills-column">
+                <ul>
+                    <li>Machine Learning (Basics)</li>
+                    <li>MySQL, HTML/CSS, JavaScript, Java, C</li>
+                    <li>Git, LaTeX, Technical Writing</li>
+                </ul>
+            </div>
+        </div>
+        <ul>
+            <li><span class="bold">ChatGPT:</span> Created many Prompts and Prompt technologies by experimenting for various daily purposes, and to create code, images, and ideas.</li>
+            <li><span class="bold">Sora:</span> Participated in Image Creation challenges, where I practiced the correct formats for prompting, creating interesting images in different styles, and moods.</li>
+            <li><span class="bold">Claude:</span> Created a website with just prompting and created videos and a mini game using the code given by Claude.</li>
+        </ul>
+    </div>
+
+    <!-- Projects -->
+    <div class="section">
+        <div class="section-title">Projects</div>
+        
+        <div style="margin-bottom: 12px;">
+            <span class="subsection-title">The Food Sharing Initiative (Full-Stack Web App)</span>
+            <ul>
+                <li>Developed a user-friendly platform using HTML, CSS, JavaScript, and MySQL to match food donors with recipients, where food recipients can view donations in real time and request the desired food.</li>
+                <li>Technical challenges and solutions: Backend connectivity and the collection of data were challenging, but it was solved through using websites like Netlify and Supabase to get a fine clarity, and then the project was implemented using MySQL</li>
+                <li>Enabled 50+ simulated transactions in test mode, showing real-world impact on food distribution.</li>
+            </ul>
+        </div>
+
+      
+        <div style="margin-bottom: 12px;">
+            <span class="subsection-title">Prompt Engineering Experiments (LLM Design)</span>
+            <ul>
+                <li>Designed and evaluated 20+ prompts for summarization, Q&A, translation, and chatbot tasks using GPT.</li>
+                <li>Used few-shot prompting techniques and performance benchmarking.</li>
+                <li>Wrote technical blogs detailing methodology and results.</li>
+            </ul>
+        </div>
+
+        <div style="margin-bottom: 12px;">
+            <span class="subsection-title">Mini AI & NLP Projects (Python-Based)</span>
+            <ul>
+                <li>Explored NLP libraries (spaCy, NLTK) through mini-projects on tokenization, POS tagging, and text preprocessing.</li>
+                <li>Ran experiments on text classification using logistic regression and TF-IDF with sample datasets.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="section">
+        <div class="section-title">Experience</div>
+        <div class="experience-header">
+            <span class="job-title">Content Writer (Remote)</span>
+            <span class="date">2024</span>
+        </div>
+        <p>Wrote blog articles on AI topics and Prompt Engineering for Medium and LinkedIn. Focused on prompt examples, evaluations, and best practices for LLM-based tools. Applied SEO techniques.</p>
+
+        <div class="experience-header">
+            <span class="job-title">Student Tutor & Teaching Assistant – Madanapalle</span>
+            <span class="date">2023–2024</span>
+        </div>
+        <p>Guided peers in math and computer science. Helped simplify complex topics like loops, recursion, and prompt crafting. Introduced classmates to ChatGPT and Python notebooks.</p>
+    </div>
+
+    <!-- Certifications & Awards -->
+    <div class="section">
+        <div class="section-title">Certifications & Achievements</div>
+        <ul>
+            <li>Prompt Engineering Certificate – DeepLearning.AI (2024)</li>
+            <li>Python for NLP – Coursera (2023)</li>
+            <li>NTSE Scholar, Math Olympiad State Finalist</li>
+            <li>NTPC National Painting Competition – District Winner</li>
+        </ul>
+    </div>
+</body>
+</html>
